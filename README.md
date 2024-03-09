@@ -148,7 +148,7 @@ Hamid Suha - [📫](scuf) - hsuha@csu.fullerton.edu
 
 Kenne Son - [📫](scuf) - Kenneki@csu.fullerton.edu
 
-Project Link: [Github]([https://github.com/your_username/repo_name](https://github.com/midsuh/PrivateLens))
+Project Link: [Github]([https://github.com/your_username/repo_name](https://github.com/midsu/PrivateLens))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
