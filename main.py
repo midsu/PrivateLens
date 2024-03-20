@@ -4,8 +4,8 @@ from cvzone.FaceDetectionModule import FaceDetector
 
 cap = cv2.VideoCapture(0)
 # window frame
-cap.set(3,648) # width
-cap.set(4,480) #height
+cap.set(3,1280) # monitor x pos, width   #648
+cap.set(4,720)  # monitor y pos, height  #480
 
 
 # --------------------Face Detection--------------------------
@@ -13,7 +13,7 @@ detector = FaceDetector(minDetectionCon=.50) #0 < minDC < 1
 
 while True:
     success, img = cap.read()
-    img, bboxs  = detector.findFaces(img,draw=False)
+    img, bboxs  = detector.findFaces(img,draw=True)
     # bboxs is a list of dicts 
     if bboxs:
         for i, bbox in enumerate(bboxs):
@@ -27,8 +27,8 @@ while True:
             img[y:y+h, x:x+w] = imgBlur
 
             # snapshots of bbox
-            # cv2.imshow(f'Imafe Cropped {i}', imgCrop)
+            # cv2.imshow(f'Image Cropped {i}', imgCrop)
 
 
-    cv2.imshow("Image", img)
+    cv2.imshow("Private Lens", img)
     cv2.waitKey(1)
