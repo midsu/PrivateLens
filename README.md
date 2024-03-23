@@ -144,9 +144,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Hamid Suha - [📫](scuf) - hsuha@csu.fullerton.edu
+Hamid Suha - [📫](csuf) - hsuha@csu.fullerton.edu
 
-Kenne Son - [📫](scuf) - Kenneki@csu.fullerton.edu
+Kenne Son - [📫](csuf) - Kenneki@csu.fullerton.edu
 
 Project Link: [Github]([https://github.com/your_username/repo_name](https://github.com/midsu/PrivateLens))
 
